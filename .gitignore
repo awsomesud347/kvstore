@@ -1,0 +1,22 @@
+# Binaries
+/bin/
+*.exe
+cmd/kv/kv
+ 
+# Test artifacts
+*.out
+coverage.*
+ 
+# WAL data files (not commiting runtime data)
+*.log
+wal.log
+/data/
+ 
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+ 
+# Go build cache (if ever local)
+/vendor/
+ 
